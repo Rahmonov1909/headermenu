@@ -31,7 +31,7 @@ header .logo{
     width: calc(100% / 12 * 2);
     
    
-    color: gold;
+    color: rgb(43, 139, 202);
     font-size: 30px;
 }
 header nav ul{
@@ -116,10 +116,7 @@ main{
     width: 1110px;
     height: 740px;
     margin: auto;
-   
-    background: rgba(0, 0, 0, 0.54);
-
-    /* background: url("../img/photos_svg.svg") no-repeat center center / cover; */
+    background: url("../img/photos_svg.svg") no-repeat center center / cover;
 
 
 }
@@ -158,23 +155,50 @@ main .education .text p:hover{
 }
 
 footer{
-    width: 100%;
+    width: 1110px;
+    margin: auto;
     min-height: 40px;
     background-color: #2c3e50;
 }
 
-
-footer .navbar ul{
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+footer nav .navbar {
+    width: 100%;
     display: flex;
     justify-content: end;
     margin-left: 0;
     margin-right: 0;
     
 }
+footer nav .text p{
+    margin-bottom: 0;
+    margin-top: 10px;
+    margin-left: 200px;
+    width: 500px;
+    color: #fff;
+    font-weight: normal;
+font-size: 18px;
+line-height: 155%;
+
+}
 footer nav ul li a{
+    padding-top: 10px;
+    margin: 0 5px;
     font-size: 30px;
     color: white;
+    display: block;
 
+}
+footer .footer_logo{
+    margin-top: 10px ;
+    margin-left: 20px;
+    color: rgb(43, 139, 202);
+    font-size: 30px;  
 }
 
 
